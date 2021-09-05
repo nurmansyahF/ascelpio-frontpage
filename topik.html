@@ -41,24 +41,99 @@
               <div class="col-md-8">
                 <div class="page-topik__title">
                   <h1>Pilih 3 topik yang kamu suka</h1>
-                  <p>1 dari 3 topik terpilih</p>
+                  <p><span id="tc">0</span> dari 3 topik terpilih</p>
                 </div>
                 <div class="page-topik__list">
-                  <div class="topik-item"><span>Penyakit dalam</span></div>
-                  <div class="topik-item"><span>Pediatri</span></div>
-                  <div class="topik-item"><span>Obstetri Ginekologi</span></div>
-                  <div class="topik-item"><span>Bedah</span></div>
-                  <div class="topik-item"><span>Neurologi</span></div>
-                  <div class="topik-item"><span>Forensik</span></div>
-                  <div class="topik-item selected"><span>Public Health</span></div>
-                  <div class="topik-item"><span>Anestesi</span></div>
-                  <div class="topik-item"><span>Oftalomologi</span></div>
-                  <div class="topik-item"><span>Psikiatri</span></div>
-                  <div class="topik-item"><span>THT</span></div>
-                  <div class="topik-item"><span>Kardiologi</span></div>
-                  <div class="topik-item"><span>Respirasi</span></div>
-                  <div class="topik-item"><span>Research</span></div>
-                  <div class="topik-item"><span>Kulit Kelamin</span></div>
+                  <div class="topik-item">
+                    <div class="custom-control custom-checkbox">
+                      <input class="custom-control-input" id="topik_1" type="checkbox" name="topik"/>
+                      <label class="custom-control-label" for="topik_1">Penyakit dalam</label>
+                    </div>
+                  </div>
+                  <div class="topik-item">
+                    <div class="custom-control custom-checkbox">
+                      <input class="custom-control-input" id="topik_2" type="checkbox" name="topik"/>
+                      <label class="custom-control-label" for="topik_2">Pediatri</label>
+                    </div>
+                  </div>
+                  <div class="topik-item">
+                    <div class="custom-control custom-checkbox">
+                      <input class="custom-control-input" id="topik_3" type="checkbox" name="topik"/>
+                      <label class="custom-control-label" for="topik_3">Obstetri Ginekologi</label>
+                    </div>
+                  </div>
+                  <div class="topik-item">
+                    <div class="custom-control custom-checkbox">
+                      <input class="custom-control-input" id="topik_4" type="checkbox" name="topik"/>
+                      <label class="custom-control-label" for="topik_4">Bedah</label>
+                    </div>
+                  </div>
+                  <div class="topik-item">
+                    <div class="custom-control custom-checkbox">
+                      <input class="custom-control-input" id="topik_5" type="checkbox" name="topik"/>
+                      <label class="custom-control-label" for="topik_5">Neurologi</label>
+                    </div>
+                  </div>
+                  <div class="topik-item">
+                    <div class="custom-control custom-checkbox">
+                      <input class="custom-control-input" id="topik_6" type="checkbox" name="topik"/>
+                      <label class="custom-control-label" for="topik_6">Forensik</label>
+                    </div>
+                  </div>
+                  <div class="topik-item selected">
+                    <div class="custom-control custom-checkbox">
+                      <input class="custom-control-input" id="topik_7" type="checkbox" name="topik"/>
+                      <label class="custom-control-label" for="topik_7">Public Health</label>
+                    </div>
+                  </div>
+                  <div class="topik-item">
+                    <div class="custom-control custom-checkbox">
+                      <input class="custom-control-input" id="topik_8" type="checkbox" name="topik"/>
+                      <label class="custom-control-label" for="topik_8">Anestesi</label>
+                    </div>
+                  </div>
+                  <div class="topik-item">
+                    <div class="custom-control custom-checkbox">
+                      <input class="custom-control-input" id="topik_9" type="checkbox" name="topik"/>
+                      <label class="custom-control-label" for="topik_9">Oftalomologi</label>
+                    </div>
+                  </div>
+                  <div class="topik-item">
+                    <div class="custom-control custom-checkbox">
+                      <input class="custom-control-input" id="topik_10" type="checkbox" name="topik"/>
+                      <label class="custom-control-label" for="topik_10">Pskiatri</label>
+                    </div>
+                  </div>
+                  <div class="topik-item">
+                    <div class="custom-control custom-checkbox">
+                      <input class="custom-control-input" id="topik_11" type="checkbox" name="topik"/>
+                      <label class="custom-control-label" for="topik_11">THT</label>
+                    </div>
+                  </div>
+                  <div class="topik-item">
+                    <div class="custom-control custom-checkbox">
+                      <input class="custom-control-input" id="topik_12" type="checkbox" name="topik"/>
+                      <label class="custom-control-label" for="topik_12">Kardiologi</label>
+                    </div>
+                  </div>
+                  <div class="topik-item">
+                    <div class="custom-control custom-checkbox">
+                      <input class="custom-control-input" id="topik_13" type="checkbox" name="topik"/>
+                      <label class="custom-control-label" for="topik_13">Respirasi</label>
+                    </div>
+                  </div>
+                  <div class="topik-item">
+                    <div class="custom-control custom-checkbox">
+                      <input class="custom-control-input" id="topik_14" type="checkbox" name="topik"/>
+                      <label class="custom-control-label" for="topik_14">Research</label>
+                    </div>
+                  </div>
+                  <div class="topik-item">
+                    <div class="custom-control custom-checkbox">
+                      <input class="custom-control-input" id="topik_15" type="checkbox" name="topik"/>
+                      <label class="custom-control-label" for="topik_15">Kulit Kelamin</label>
+                    </div>
+                  </div>
                 </div>
                 <div class="page-topik__bottom">
                   <div class="notes">
@@ -78,6 +153,40 @@
     <script src="plugins/bootstrap/bootstrap.bundle.min.js"></script>
     <script src="plugins/owl-carousel/owl.carousel.min.js"></script>
     <script src="plugins/bootstrap-select/bootstrap-select.min.js"></script>
+    <script src="plugins/datepicker/moment.min.js"></script>
+    <script src="plugins/datepicker/daterangepicker.min.js"></script>
     <script src="scripts/main.js"></script>
+    <script>
+      $('.page-topik').each(function(){
+        var t = $(this),
+            cb = t.find('input:checkbox'),
+            tc = t.find('#tc'),
+            cbc = t.find('input:checkbox:checked'),
+            bp = t.find('.btn-primary');
+        var c = 0;
+        console.log(tc);
+        cb.each(function(){
+          $(this).change(function(){
+            if($(this).is(':checked')){
+              c = c + 1;
+              tc.html(c);
+            }else{
+              c = c - 1;
+              tc.text(c);
+            }
+            if(c == 3){
+              bp.removeClass('disabled');
+              t.find('input:checkbox:not(:checked)').attr("disabled", true);
+            }else{
+              bp.addClass('disabled');
+              t.find('input:checkbox:not(:checked)').removeAttr("disabled");
+            }
+          })
+      
+      
+        })
+      
+      });
+    </script>
   </body>
 </html>
