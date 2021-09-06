@@ -67,7 +67,7 @@
                           <div class="pp"><img src="images/pp-author.png"/></div><span>Dr. Ahman Jayadi</span>
                         </div>
                         <div class="date">Rp. 150,000</div>
-                        <div class="right"><a class="btn btn-primary btn-small" href="#">Beri Ulasan</a></div>
+                        <div class="right"><a class="btn btn-primary btn-small" href="#mdlulasan" data-toggle="modal" data-target="#mdlulasan">Beri Ulasan</a></div>
                       </div>
                     </div>
                   </div>
@@ -243,6 +243,50 @@
           </div>
         </div>
       </footer>
+    </div>
+    <div class="modal mdlulasan" id="mdlulasan" tabindex="-1">
+      <div class="modal-dialog modal-dialog--centered modal-dialog--md">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="modal-title">
+              <h3>Review Kelasmu</h3>
+            </div><a class="close" href="#" data-dismiss="modal" aria-label="Close"><img src="images/ic-xclose.svg"/></a>
+            <div class="box-review"><span class="tag">Good morning knowledge</span>
+              <div class="item-name">
+                <h4>Siap Tanggapi Trauma Urogenital</h4>
+              </div>
+              <div class="author">
+                <div class="pp"><img src="images/pp-author.png"/></div><span>Dr. Ahman Jayadi</span>
+              </div>
+              <div class="input-review">
+                <label>Sangat puas!</label>
+                <div class="img-star"><img src="images/big-star.png"/></div>
+              </div>
+              <div class="form-group">
+                <textarea class="form-control" rows="5" placeholder="Tulis deskripsimu tentang asclepio"></textarea>
+              </div>
+              <div class="btn-wrap text-right"><a class="btn btn-primary btn-long" href="#mdlulasan_success" data-toggle="modal" data-target="#mdlulasan_success" data-dismiss="modal">Kirim</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="modal mdlulasan-success" id="mdlulasan_success" tabindex="-1">
+      <div class="modal-dialog modal-dialog--centered modal-dialog--md">
+        <div class="modal-content">
+          <div class="modal-body">
+            <div class="modal-title"></div><a class="close" href="#" data-dismiss="modal" aria-label="Close"><img src="images/ic-xclose.svg"/></a>
+            <div class="box-review">
+              <div class="img-box"><img src="images/img-ulasan-success.png"/></div>
+              <div class="text-box">
+                <h4>Terima kasih ya!</h4>
+                <p>Jangan ketinggalan kelas menarik lainnya ya. Ayo gabung kelas lagi bersama kami!</p>
+              </div>
+              <div class="btn-wrap text-center"><a class="btn btn-primary" href="#">Lihat kelas lainnya</a></div>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
     <script src="plugins/jquery/jquery-3.4.1.min.js"></script>
     <script src="plugins/bootstrap/bootstrap.bundle.min.js"></script>

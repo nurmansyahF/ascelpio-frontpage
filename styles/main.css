@@ -274,6 +274,8 @@ main { padding-top: 78px; }
 
 .btn-small { padding: 8px; min-width: 0 !important; width: auto; }
 
+.btn-long { min-width: 190px; padding: 14px 44px; }
+
 .admin-content { padding: 50px 38px; background: #F2F2F1; margin-left: 250px; width: calc(100% - 250px); min-height: calc(100vh - 80px); overflow: hidden; }
 
 .page-heading { display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-justify-content: space-between; -ms-flex-pack: justify; justify-content: space-between; -webkit-align-items: center; -ms-flex-align: center; align-items: center; margin-bottom: 50px; }
@@ -455,6 +457,22 @@ main { padding-top: 78px; }
 .slider__testimoni .owl-nav span { background: #DC7702; border-radius: 50%; width: 32px; height: 32px; padding: 3px; background-image: url("../images/ic-chevron-left-white.svg"); background-size: 25px; background-repeat: no-repeat; background-position: center; }
 
 .slider__testimoni .owl-nav span:hover { background-color: #DC7702; }
+
+span.tag { font-size: 12px; line-height: 14px; padding: 5px 6px; background: #E4FED1; color: #6C841D; border-radius: 8px; margin-bottom: 16px; display: inline-block; vertical-align: middle; }
+
+span.tag-scndry { color: #278D68; background: #278D6824; }
+
+span.tag-open { color: #DC7702; background: rgba(220, 119, 2, 0.1); }
+
+span.tag-expert { color: #CDA71F; background: rgba(205, 167, 31, 0.1); }
+
+span.tag-private { color: #47B4F1; background: rgba(71, 180, 241, 0.1); }
+
+span.tag-success { color: #FFF; background: #307931; }
+
+span.tag.nobg { background: transparent; }
+
+span.tag + .nobg { margin-left: 16px; }
 
 .card-pemateri { position: relative; padding: 20px; margin-bottom: 24px; }
 
@@ -711,7 +729,7 @@ body.usracnt-open .account-user .account-submenu { opacity: 1; visibility: visib
 
 .footer__subscribes .form-control { background: #2D302D; border-color: #2D302D; border-radius: 10px; }
 
-.footer__subscribes .btn { position: absolute; padding: 8px 12px; top: 3px; right: 5px; border-radius: 10px; }
+.footer__subscribes .btn { position: absolute; padding: 8px 12px; top: 8px; right: 5px; border-radius: 10px; }
 
 .footer .language { margin-top: auto; }
 
@@ -787,6 +805,14 @@ body.usracnt-open .account-user .account-submenu { opacity: 1; visibility: visib
 .page-topik__bottom .notes p { color: #838683; font-size: 14px; line-height: 1.5em; }
 
 .page-topik__bottom .btn-wrap { margin-top: 0; }
+
+.page-topik.small { padding: 0; }
+
+.page-topik.small .page-topik__list { margin-left: -5px; margin-right: -5px; -webkit-justify-content: flex-start; -ms-flex-pack: start; justify-content: flex-start; }
+
+.page-topik.small .topik-item { padding-left: 5px; padding-right: 5px; margin-bottom: 10px; }
+
+.page-topik.small .custom-checkbox .custom-control-label { padding: 10px 16px; }
 
 .page-kuisioner { padding: 60px 0; }
 
@@ -1066,6 +1092,76 @@ body.usracnt-open .account-user .account-submenu { opacity: 1; visibility: visib
 
 .page-profile { background: #F2F2F1; padding: 60px 0 0 0; }
 
+.page-profile .box-card { min-width: 167px; }
+
+.page-profile .box-card .rating { padding: 4px; }
+
+.page-profile .box-card .rating .ic { width: 12px; height: 12px; }
+
+.page-profile .box-card .rating span { font-size: 11px; line-height: 1.5em; }
+
+.page-profile .box-card__text h4 { font-size: 14px; line-height: 1.3em; text-overflow: ellipsis; }
+
+.page-profile .box-card .author .pp { width: 20px; height: 20px; }
+
+.page-profile .box-card .author span { font-size: 11px; }
+
+.page-profile div.section { padding: 0; margin-bottom: 40px; }
+
+.page-profile div.section .section__title h4 { font-size: 20px; }
+
+.informasi-box { padding: 24px 20px; background: #fff; border: 1px solid rgba(48, 121, 49, 0.2); border-radius: 20px; }
+
+.informasi-box__photo { width: 94px; height: 94px; margin: 0 auto 24px; border-radius: 50%; }
+
+.informasi-box__name { margin-bottom: 16px; }
+
+.informasi-box__name h3 { font-size: 24px; line-height: 1.2em; font-weight: 700; margin-bottom: 8px; }
+
+.informasi-box__name p { font-size: 16px; line-height: 1.5em; color: #838683; font-weight: 600; }
+
+.informasi-box-profile { text-align: center; }
+
+.informasi-box .btn-border { padding: 14px 60px; }
+
+.informasi-box__detail li { margin-bottom: 24px; }
+
+.informasi-box__detail label { font-size: 16px; line-height: 1.5em; font-weight: 600; margin-bottom: 14px; }
+
+.informasi-box__detail p { font-size: 14px; line-height: 1.3em; }
+
+.informasi-box .topik .tag-topik { display: inline-block; vertical-align: middle; border-radius: 10px; background: rgba(117, 178, 72, 0.1); padding: 4px 10px; font-size: 14px; line-height: 22px; color: #75B248; margin-bottom: 10px; text-decoration: none; }
+
+.informasi-box .topik .tag-topik + .tag-topik { margin-left: 8px; }
+
+.form-group.photo .pp { width: 94px; height: 94px; border-radius: 50%; margin: 0 auto 14px; }
+
+.form-group.photo input { opacity: 0; visibility: hidden; width: 0; height: 0; display: none; }
+
+.form-group.photo label { cursor: pointer; color: #DC7702; text-align: center; }
+
+.mdlvoucher .voucher-img { margin-bottom: 24px; }
+
+.mdlvoucher .voucher-img img { width: 100%; height: auto; }
+
+.mdlvoucher .voucher-title { margin-bottom: 16px; }
+
+.mdlvoucher .voucher-title h4 { font-size: 18px; line-height: 1.2em; font-weight: 600; }
+
+.mdlvoucher .voucher-duration { display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-align-items: center; -ms-flex-align: center; align-items: center; font-size: 12px; line-height: 14px; margin-bottom: 16px; }
+
+.mdlvoucher .voucher-duration .ic { width: 18px; height: 18px; display: inline-block; vertical-align: middle; margin-right: 8px; }
+
+.mdlvoucher .voucher-duration .ic img { width: 100%; }
+
+.mdlvoucher .voucher-duration .expired { color: #DB3838; }
+
+.mdlvoucher .voucher-duration .expired span { font-weight: 600; }
+
+.mdlvoucher .voucher-duration .timeused { color: #75B248; margin-left: 32px; }
+
+.mdlvoucher .voucher-desc { color: #838683; }
+
 .settings__form .custom-checkbox { margin-bottom: 24px; }
 
 .settings__form .custom-checkbox:last-child { margin-bottom: 0; }
@@ -1221,6 +1317,28 @@ body.usracnt-open .account-user .account-submenu { opacity: 1; visibility: visib
 .pembayaran.success .webinar .listview .box-card__content h4 { color: #202320; }
 
 .pembayaran.success .webinar .listview .box-card__content .price { color: #202320; }
+
+.mdlulasan .box-review { text-align: center; }
+
+.mdlulasan .item-name { margin-bottom: 16px; }
+
+.mdlulasan .author { margin-bottom: 32px; }
+
+.mdlulasan .author .pp { display: inline-block; vertical-align: middle; width: 30px; height: 30px; border-radius: 50%; margin-right: 15px; }
+
+.mdlulasan .author span { font-size: 13px; line-height: 20px; }
+
+.mdlulasan .input-review label { font-size: 14px; line-height: 22px; font-weight: 600; margin-bottom: 8px; }
+
+.mdlulasan .input-review .img-star { display: block; text-align: center; margin-bottom: 24px; }
+
+.mdlulasan .input-review .img-star img { height: 30px; margin: 0 auto; }
+
+.mdlulasan-success { text-align: center; }
+
+.mdlulasan-success .img-box img { display: block; margin: 0 auto; }
+
+.mdlulasan-success .text-box { max-width: 358px; margin: 0 auto 32px; }
 
 /* ------------------------------------------------------------------------------------------------ */
 /* Responsive */
