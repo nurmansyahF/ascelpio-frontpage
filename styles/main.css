@@ -1340,6 +1340,20 @@ body.usracnt-open .account-user .account-submenu { opacity: 1; visibility: visib
 
 .mdlulasan-success .text-box { max-width: 358px; margin: 0 auto 32px; }
 
+.mdligyt .modal-dialog { max-width: 738px; }
+
+.mdligyt .box-igyt .img-box img { display: block; margin: 0 auto; }
+
+.mdligyt .box-igyt .text-box { text-align: center; }
+
+.mdligyt .box-igyt .text-box h4 { font-size: 20px; line-height: 1.5em; margin-bottom: 20px; }
+
+.mdligyt .box-igyt .text-box p { color: #838683; }
+
+.mdligyt .btn-wrap .btn + .btn { margin-left: 24px; }
+
+.mdligyt .btn-wrap .btn .ic { display: inline-block; vertical-align: middle; margin-right: 8px; }
+
 /* ------------------------------------------------------------------------------------------------ */
 /* Responsive */
 /* ------------------------------------------------------------------------------------------------ */
