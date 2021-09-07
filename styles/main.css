@@ -1248,6 +1248,14 @@ header.header-auth .header__right .language span { display: inline-block; vertic
 
 .form-group.photo label { cursor: pointer; color: #DC7702; text-align: center; }
 
+.voucher-wrap .voucher-item .duration { position: absolute; left: 42px; bottom: 16px; }
+
+.voucher-wrap .voucher-item .duration a { display: block; position: relative; }
+
+.voucher-wrap .voucher-item .duration .ic { width: 18px; height: 18px; margin-right: 16px; display: inline-block; vertical-align: middle; }
+
+.voucher-wrap .voucher-item .duration span { display: inline-block; vertical-align: middle; font-size: 12px; line-height: 1.2; font-weight: 600; color: #DB3838; }
+
 .mdlvoucher .voucher-img { margin-bottom: 24px; }
 
 .mdlvoucher .voucher-img img { width: 100%; height: auto; }
