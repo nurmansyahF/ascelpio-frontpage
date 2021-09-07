@@ -17,6 +17,7 @@
     <div id="wrap">
       <header class="header" id="header">
         <div class="container">
+          <div class="icon-menu"><span></span><span></span><span></span></div>
           <div class="row">
             <div class="col-md-8"><a class="header__logo" href="#"><img src="images/logo-ascelpio.png"/></a>
               <nav class="header__menu">
@@ -35,6 +36,19 @@
               </div>
             </div>
           </div>
+        </div>
+        <div class="box-navmobile">
+          <div class="box-navmobile__close"><img src="images/ic-close-menu.svg"/></div><a class="btn btn-border" href="login.html">Masuk</a><a class="btn btn-primary" href="sign-up.html">Daftar Akun</a>
+          <hr/>
+          <nav class="header__menu-mobile">
+            <ul>
+              <li><a href="home.html">Home</a></li>
+              <li><a href="asclepedia.html">Asclepedia</a></li>
+              <li><a href="asclepio-go.html">Asclepio Go</a></li>
+              <li><a href="tentang-kami.html">Tentang Kami</a></li>
+              <li><a href="faq.html">FAQ</a></li>
+            </ul>
+          </nav>
         </div>
       </header>
       <main>
@@ -113,7 +127,13 @@
             <div class="row">
               <div class="col-md-2">
                 <div class="footer__logo"><img src="images/footer-logo.png"/></div>
-                <div class="footer__cpyright"><span>Copyright ©2020 Asclepio</span></div>
+                <div class="language show-mobile">
+                  <div class="ic"><img src="images/ic-globe.png"/></div>
+                  <select class="select sel-language">
+                    <option>Indonesia</option>
+                    <option>English</option>
+                  </select>
+                </div>
               </div>
               <div class="col-md-6">
                 <div class="footer__nav-wrap">
@@ -157,6 +177,7 @@
                 <option>English</option>
               </select>
             </div>
+            <div class="footer__cpyright show-mobile"><span>Copyright ©2020 Asclepio</span></div>
           </div>
         </div>
       </footer>
