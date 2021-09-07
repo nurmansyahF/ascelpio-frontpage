@@ -828,13 +828,11 @@ header.header-auth .header__right .language span { display: inline-block; vertic
 /* ------------------------------------------------------------------------------------------------ */
 /* Content */
 /* ------------------------------------------------------------------------------------------------ */
-.login-page { height: calc(100vh - 78px); overflow: hidden; position: relative; }
-
-.login-page .container { height: 100%; }
+.login-page { position: relative; }
 
 .login-page .row { height: 100%; }
 
-.login-page__wrap { width: 100%; }
+.login-page__wrap { width: 100%; padding: 40px 0; }
 
 .login-page__wrap h2 { color: #75B248; }
 
@@ -846,7 +844,7 @@ header.header-auth .header__right .language span { display: inline-block; vertic
 
 .login-page .col-lg-7 { position: relative; }
 
-.login-page__image { width: 50vw; height: 100vh; max-width: 803px; position: absolute; top: 0; right: 0; border-radius: 40px 0 0 0; }
+.login-page__image { width: 50vw; height: 100%; max-width: 803px; position: absolute; top: 0; right: 0; border-radius: 40px 0 0 0; }
 
 .login-page__image.mobile { display: none; }
 
