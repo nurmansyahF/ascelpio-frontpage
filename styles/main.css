@@ -648,7 +648,7 @@ header.header .header__logo { display: inline-block; vertical-align: middle; max
 
 header.header .header__logo img { max-width: 100%; max-height: 54px; }
 
-header.header .header__right { text-align: right; }
+header.header .header__right { text-align: right; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-justify-content: flex-end; -ms-flex-pack: end; justify-content: flex-end; }
 
 header.header .header__right .btn { min-width: 143px; }
 
@@ -696,7 +696,7 @@ header.header .icon-menu span:nth-child(2) { top: 18px; }
 
 header.header .icon-menu span:nth-child(3) { top: 28px; }
 
-.account-user { position: relative; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-align-items: center; -ms-flex-align: center; align-items: center; padding-right: 32px; cursor: pointer; }
+.account-user { position: relative; max-width: 180px; display: -webkit-flex; display: -ms-flexbox; display: flex; -webkit-flex-wrap: wrap; -ms-flex-wrap: wrap; flex-wrap: wrap; -webkit-align-items: center; -ms-flex-align: center; align-items: center; padding-right: 32px; cursor: pointer; }
 
 .account-user:after { content: ""; width: 20px; height: 20px; background-image: url("../images/ic-chevron-down.svg"); background-size: contain; background-repeat: no-repeat; background-position: center; position: absolute; top: 6px; right: 0; transition: all .3s ease; }
 
@@ -708,13 +708,17 @@ header.header .icon-menu span:nth-child(3) { top: 28px; }
 
 .account-user .account-name { font-size: 14px; line-height: 1.3em; color: #202320; font-weight: 500; }
 
-.account-user .account-submenu { position: absolute; min-width: 250px; top: calc(100% + 40px); right: 0; left: 0; margin: 0 auto; padding: 20px; border-radius: 6px; background: #fff; text-align: left; transition: all .5s ease; box-shadow: 0px 20px 44px rgba(0, 0, 0, 0.1); opacity: 0; visibility: hidden; }
+.account-user .account-submenu { position: absolute; min-width: 280px; top: calc(100% + 40px); right: 0; left: 0; margin: 0 auto; padding: 20px; border-radius: 6px; background: #fff; text-align: left; transition: all .5s ease; box-shadow: 0px 20px 44px rgba(0, 0, 0, 0.1); opacity: 0; visibility: hidden; }
 
 .account-user .account-submenu:before { content: ""; position: absolute; top: -16px; left: calc(50% - 16px); border-style: solid; height: 0; width: 0; border-color: transparent transparent #FFF; border-width: 0 16px 16px; }
 
 .account-user .account-submenu ul li:not(:last-child) { -webkit-margin-after: 20px; margin-block-end: 20px; }
 
 .account-user .account-submenu ul li a { font-size: 14px; line-height: 1.5em; color: #202320; text-decoration: none; }
+
+.account-user .account-submenu ul li a span { display: inline-block; vertical-align: middle; }
+
+.account-user .account-submenu ul li .ic { width: 20px; height: 20px; display: inline-block; vertical-align: middle; margin-right: 12px; }
 
 .account-user .account-submenu ul li u.count { text-align: center; text-decoration: none; border-radius: 50%; width: 20px; height: 20px; background: #E72D2D; color: #FFF; font-size: 12px; line-height: 20px; display: inline-block; vertical-align: middle; margin-left: 10px; }
 
