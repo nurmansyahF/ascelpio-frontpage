@@ -838,9 +838,11 @@ header.header-auth .header__right .language span { display: inline-block; vertic
 /* ------------------------------------------------------------------------------------------------ */
 /* Content */
 /* ------------------------------------------------------------------------------------------------ */
-.login-page { position: relative; }
+.login-page { min-height: calc(100vh - 78px); position: relative; }
 
-.login-page .row { height: 100%; }
+.login-page .container { min-height: calc(100vh - 78px); }
+
+.login-page .row { min-height: calc(100vh - 78px); -webkit-align-items: center; -ms-flex-align: center; align-items: center; }
 
 .login-page__wrap { width: 100%; padding: 40px 0; }
 
